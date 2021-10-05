@@ -10,25 +10,6 @@
   "n c";
 }
 
-.header{
-  grid-area: h;
-  background-color: darkolivegreen;
-}
 
-header img{
-  width: 40px;
-  margin: 6px;
-}
 
-.nav{
-  grid-area: n;
-  background-color: coral;
-}
 
-.content{
-  grid-area: c;
-  background-color: aquamarine;
-}
-.content img {
-  width: 100%;
-}

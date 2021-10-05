@@ -1,0 +1,22 @@
+.nav {
+    grid-area: n;
+    background-color: coral;
+}
+.item {
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.item a {
+    text-decoration: none;
+    color: dimgrey;
+}
+
+.item a:hover {
+    text-decoration: none;
+}
+
+.item a:visited {
+    text-decoration: none;
+}

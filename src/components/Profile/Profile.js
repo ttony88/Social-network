@@ -1,5 +1,9 @@
 import React from "react";
 import classes from "./Profile.module.css";
+import Posts from "./Posts/Posts";
+import Ava from "./Ava/Ava";
+import Form from "./Forma/Forma";
+
 
 const Profile = () => {
     return(
@@ -7,11 +11,9 @@ const Profile = () => {
             <div>
                 <img src="https://w-dog.ru/wallpapers/9/16/399332228390766/ssha-shtata-vajoming-grand-titon-nacionalnyj-park-gora-moran-ozero-dzhekson-priroda-leto-utro-les-otrazheniya.jpg" alt=""/>
             </div>
-            <div className={classes.ava}>ava + description</div>
-            <div className={classes.post}>My posts</div>
-            <div className={classes.post}>New post</div>
-            <div className={classes.post}>post 1</div>
-            <div className={classes.post}>post 2</div>
+            <Ava />
+            <Form />
+            <Posts />
         </div>
     );
 }

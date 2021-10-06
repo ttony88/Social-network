@@ -10,6 +10,14 @@
   "n c";
 }
 
+.content-wrapper{
+  grid-area: c;
+  background-color: aquamarine;
+}
+.content-wrapper img {
+  width: 100%;
+}
+
 
 
 

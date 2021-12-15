@@ -1,6 +1,7 @@
 .nav {
     grid-area: n;
-    background-color: coral;
+    border-radius: 10px;
+    background-color: #896E69;
 }
 .item {
     margin: 20px;
@@ -10,13 +11,9 @@
 
 .item a {
     text-decoration: none;
-    color: dimgrey;
+    color: #000000;
 }
 
-.item a:hover {
-    text-decoration: none;
-}
-
-.item a:visited {
-    text-decoration: none;
+.item a.activeLink{
+    color: gold;
 }

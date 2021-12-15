@@ -1,3 +1,20 @@
 .form {
+    display: flex;
+    flex-direction: column;
     margin: 0 0 50px 50px;
 }
+
+.textarea {
+    min-height: 60px;
+    margin: 0 50px 20px 0;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    resize: none;
+    outline: none;
+}
+
+.textarea:focus {
+    border: 2px solid #D55448;
+}
+.buttons{}
+.add{}

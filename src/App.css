@@ -1,6 +1,10 @@
+body {
+  background-color: #FFA577;
+}
+
 .app-wrapper {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 20px auto;
   display: grid;
   grid-template-rows: 60px 1fr;
   grid-template-columns: 2fr 10fr;
@@ -12,7 +16,8 @@
 
 .content-wrapper{
   grid-area: c;
-  background-color: aquamarine;
+  border-radius: 10px;
+  background-color: #f9f9ff;
 }
 .content-wrapper img {
   width: 100%;

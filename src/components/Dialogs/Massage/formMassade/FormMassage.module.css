@@ -1,0 +1,22 @@
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    width: 50%;
+    height: 50px;
+    margin: 0 0 20px;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    resize: none;
+    outline: none;
+}
+.text:focus {
+    border: 2px solid brown;
+}
+
+.button{
+    width: 15%;
+    height: 30px;
+}

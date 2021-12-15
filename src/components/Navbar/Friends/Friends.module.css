@@ -1,0 +1,13 @@
+.friendsContent {
+    margin: 100px 0 50px;
+}
+
+.title {
+    margin: 0 0 15px;
+    text-align: center;
+}
+
+.friends {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}

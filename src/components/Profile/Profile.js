@@ -1,19 +1,21 @@
 import React from "react";
 import classes from "./Profile.module.css";
-import Posts from "./Posts/Posts";
-import Ava from "./Ava/Ava";
-import Form from "./Forma/Forma";
+import ProfileInfo from "./ProfileInfo/ProfileInfo";
+import FormaContainer from "./Forma/FormaContainer";
+import PostsContainer from "./Posts/postsContainer";
+import Loader from "../../common/Loader";
 
 
-const Profile = () => {
+
+const Profile = (props) => {
+    if (!props.profile){
+        return <Loader/>
+    }    
     return(
         <div className={classes.content}>
-            <div>
-                <img src="https://w-dog.ru/wallpapers/9/16/399332228390766/ssha-shtata-vajoming-grand-titon-nacionalnyj-park-gora-moran-ozero-dzhekson-priroda-leto-utro-les-otrazheniya.jpg" alt=""/>
-            </div>
-            <Ava />
-            <Form />
-            <Posts />
+            <ProfileInfo info={props.profile}/>
+            <FormaContainer />
+            <PostsContainer />
         </div>
     );
 }

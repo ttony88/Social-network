@@ -1,0 +1,19 @@
+.massageContent {
+    display: flex;
+    margin: 0 0 20px;
+}
+
+.massage{
+    font-style: italic;
+}
+
+.massage:after{
+    margin: 0;
+}
+
+.ava {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}

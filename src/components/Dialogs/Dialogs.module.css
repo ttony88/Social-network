@@ -1,0 +1,13 @@
+.dialogContainer{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.dialogs{
+    border-right: #666666 solid 1px;
+}
+
+.massages{
+    margin: 0 0 0 20px;
+}
